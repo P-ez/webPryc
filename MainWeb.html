@@ -13,36 +13,38 @@
     <div><!--"Div del encabezado"-->
         <div class="nav-container">
             <nav class="nav-bar">
-                <ul class="nav-bar">
-                    <button class="nav-button"><img src="test2.png" alt="logo" class="logo"></button>
-                    <button class="nav-button">Padres</button>
-                    <button class="nav-button">Juegos</button>
-                    <button class="nav-button">*</button>
-                </ul>
-            </nav>
-        </div><!--fin div encabezado-->
-        
-        <!-- desechados videos en "MAIN"
-            <div class="side-content">
-           <iframe src="https://www.youtube.com/embed/fXtHiMF2KB8" frameborder="0"></iframe>
-           
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/J_6fKNdyjr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>-->
-    
-        <div class="grid-container"><!--div grilla  principal-->
-            <div class="grid-cell"></div>
-            <div class="grid-cell center"></div>
-            <div class="grid-cell "></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>          
+                 <a href="#" class="nav-button"><img src="test2.png" alt="logo"class="logo"></a>
+                 <a href="#" class="nav-button">Padres</a>
+                 <a href="#" class="nav-button">Juegos</a>
+                 <a href="#" class="nav-button">*</a>
+            </nav><!--fin encabezado-->
         </div>
-
-
-    </div> <!--cierre div final-->
-
-
-
-
+        <div class="grid-container"><!--div grilla  principal-->
+            
+                <div class="grid-cell"></div>
+                <div class="grid-cell center"></div>
+                <div class="grid-cell "></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>          
+            </div><!--plantear cambio por flexbox, problema no focus-->
+            
+            <div class=flex-container>
+                  <div class="flex-content">
+                      <h2>Ent</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fXtHiMF2KB8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
+               
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/J_6fKNdyjr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                <div class="flex-content"> 
+                    <h2>Art</h2> 
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/3MEyFe21fLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/gv-BK43u-Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+               
+            </div>
+  
+        </div> <!--cierre div final-->
         <script src="tp.js"></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
-let boton=document.querySelector('.nav-button')
+
+/* let boton=document.querySelector('.nav-button')
 let desplegable=document.querySelector('.oculto')
 
 boton.addEventListener('click',()=>{
@@ -6,3 +7,4 @@ boton.addEventListener('click',()=>{
 }
 
 )
+ */
