@@ -51,7 +51,7 @@ width:100%;
         width:80%;
         grid-template-columns:repeat(3,1fr);
         grid-gap:20px;
-        height:60vw;
+        height:40vw;
         margin-left:10vw;
         
     }
@@ -71,20 +71,43 @@ a{
     text-decoration: none;
 }
 .flex-container{
-    display: flex;
+    display:flex;
     width:100vw;
     justify-content: space-around;
     background-color: #A0E7E5;
+    
 }
 .flex-content{
     margin-left: 10vw;   
     flex-direction:column;
+    width:100%;
 }
 iframe{
     max-width:35vw ;
-    height: 25vw;
-    
+    height: 20vw;
     margin-bottom: 10px;
-
-    
 } 
+.oculto{
+    display:none;
+}
+@media screen and (max-width:600px){
+    .grid-container{
+        height:60vw;
+    }    
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-content{
+        display:inline-flex;
+    }
+    iframe{
+        max-width:80%;
+       height:35vw;
+    }
+    .flex-content iframe:last-child{
+        display:none;
+    }
+    h2{
+        margin:0;
+    }
+}
