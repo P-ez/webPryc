@@ -1,14 +1,14 @@
 *{
     box-sizing: border-box;
 }
+html,body{
 
-body{
-    background-color:hsla(139, 95%, 64%, 0.534);
-    
+    overflow-x: hidden;
+    width:100%;
     margin:0;
-}   
+}
+
 .nav-container{
-margin-bottom:2vw;
 background-color: #FB5F5F;
 width:100%;
 
@@ -16,9 +16,12 @@ width:100%;
 .nav-bar{
     text-align: center;
     display: flex;
-    width:80vw;
+    width:80%;
     flex-direction: row;
-    margin-left:10vw;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    
 }
 .nav-button{ 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,41 +49,47 @@ width:100%;
     
 }
 .grid-container{
-        margin-bottom:2vw;
         display:grid;
-        width:80%;
+        width:100%;
         grid-template-columns:repeat(3,1fr);
         grid-gap:20px;
         height:40vw;
-        margin-left:10vw;
-        
+        padding-left: 10%;
+        padding-right:10%;
+        background-color: hsla(139, 95%, 64%, 0.534);
+        justify-content: space-around;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
     }
     .grid-cell{
-    background-image: url('ico.jpg');
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
-}
-.center{
-    grid-row: 2 span;
-    grid-column:2/3;
-    background-image: url('ico.jpg');
-
-}
-a{
-    text-decoration: none;
-}
-.flex-container{
-    display:flex;
-    width:100vw;
-    justify-content: space-around;
-    background-color: #A0E7E5;
-    
-}
-.flex-content{
-    margin-left: 10vw;   
-    flex-direction:column;
-    width:100%;
+        background-image: url('ico.jpg');
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+    .center{
+        grid-row: 2 span;
+        grid-column:2/3;
+        background-image: url('ico.jpg');
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    .flex-container{
+        display:flex;
+        width:100%;
+        justify-content: space-around;
+        background-color: #A0E7E5;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        
+    }
+    .flex-content{
+        margin-left: 10vw;   
+        flex-direction:column;
+        width:100%;
+        margin-right: 10vw;
 }
 iframe{
     max-width:35vw ;
@@ -90,6 +99,54 @@ iframe{
 .oculto{
     display:none;
 }
+.gbutton{
+    flex-grow: 1;
+    background-color: hsl(340, 83%, 66%);
+    width: 18%;
+    border:1px solid whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;   
+    overflow-wrap: break-word;
+    max-height: 60px;
+    
+}
+.gbutton:last-child{border-top-right-radius: 10px;
+}
+:first-child{
+border-top-left-radius: 10px;}
+.index-footer{
+    background-color: lawngreen;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.index-footer>ul{
+    margin:0;
+    text-decoration:none;
+    list-style: none;
+}
+.preview{
+    width:80%;
+    background-color: whitesmoke;
+    height: 30vw;
+
+    margin-left: 10%;
+
+}
+.game-h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.games{
+    background-image:url(test2.png);
+    
+    
+}
+
+
+
+
+
 @media screen and (max-width:600px){
     .grid-container{
         height:60vw;
@@ -110,4 +167,8 @@ iframe{
     h2{
         margin:0;
     }
+    .preview{
+        height: 60vh;
+    }
+    
 }
