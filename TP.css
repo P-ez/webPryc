@@ -105,10 +105,7 @@ iframe{
     width: 18%;
     border:1px solid whitesmoke;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;   
-    overflow-wrap: break-word;
-    max-height: 60px;
-    
+    overflow-wrap: break-word; 
 }
 .gbutton:last-child{border-top-right-radius: 10px;
 }
