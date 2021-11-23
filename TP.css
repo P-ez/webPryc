@@ -167,7 +167,7 @@ iframe {
 
 @media screen and (max-width: 600px) {
   .grid-container {
-    height: 60vw;
+    height: 60%;
   }
   .flex-container {
     flex-direction: column;
@@ -177,7 +177,7 @@ iframe {
   }
   iframe {
     max-width: 80%;
-    height: 35vw;
+    height: 35%;
   }
   .flex-content iframe:last-child {
     display: none;
