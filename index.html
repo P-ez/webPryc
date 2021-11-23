@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="TP.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="TP.css" />
     <title>MainWebv1</title>
-</head>
+  </head>
 
-<body>
-    
-    <div><!--"Div del encabezado"-->
-            <div class="nav-container">
-               <nav class="nav-bar">
-                 <a href="#" class="nav-button"><img src="test2.png" alt="logo"class="logo"></a>
-                 <a href="#" class="nav-button">Padres</a>
-                 <a href="games.html" class="nav-button">Juegos</a>
-                 <a href="#" class="nav-button">*</a>
-            </nav><!--fin encabezado-->
-            </div>
-        <div class="grid-container"><!--div grilla  principal-->
-            
-                <div class="grid-cell"></div>
-                <div class="grid-cell center"></div>
-                <div class="grid-cell "></div>
-                <div class="grid-cell"></div>
-                <div class="grid-cell"></div>          
-            </div><!--plantear cambio por flexbox, problema no focus-->
-            
-            <div class=flex-container>
-                  <div class="flex-content">
-                      <h2>Ent</h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fXtHiMF2KB8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
-               
-                 <iframe width="560" height="315" src="https://www.youtube.com/embed/J_6fKNdyjr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                <div class="flex-content"> 
-                    <h2>Art</h2> 
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/3MEyFe21fLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/gv-BK43u-Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 </div>
-               
-            </div>
-            <div class="index-footer">
-                <ul>
-                    <li><a href="">Contacto</a></li>
-                    <li><a href="mailto:">Mail</a></li>
-                    <li><a href="">Donate</a></li>
-                    
-                </ul>
-            </div>
-        </div> <!--cierre div final-->
-        <script src="tp.js"></script>
-</body>
+  <body>
+    <div>
+      <!--"Div del encabezado"-->
+      <div><header class="nav-container">
+        <nav class="nav-bar">
+          <a href="#" class="nav-button"
+            ><img src="/images/test2.png" alt="logo" class="logo"
+          /></a>
+          <a href="#" class="nav-button">Padres</a>
+          <a href="games.html" class="nav-button">Juegos</a>
+          <a href="#" class="nav-button">*</a>
+        </nav>
+        <!--fin encabezado-->
+      </header>
+      </div>
+      <main id="main-index" class="grid-container">
+        <!--div grilla  principal-->
+
+        <div class="grid-cell"></div>
+        <div class="grid-cell center"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+      </main>
+      <!--plantear cambio por flexbox, problema no focus-->
+
+      <section id="video-section" class="flex-container">
+        <div class="flex-content">
+          <h2>Ent</h2>
+          <iframe
+            src="https://www.youtube.com/embed/fXtHiMF2KB8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            >></iframe
+          >
+
+          <iframe
+            src="https://www.youtube.com/embed/J_6fKNdyjr4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="flex-content">
+          <h2>Art</h2>
+          <iframe
+            src="https://www.youtube.com/embed/3MEyFe21fLw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            src="https://www.youtube.com/embed/gv-BK43u-Y4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <footer class="index-footer">
+        <ul>
+          <li><a href="">Contacto</a></li>
+          <li><a href="mailto:sarasa@outlook.com" tittle="sarasa@outlook.com">Enviar Mail</a></li>
+          <li><a href="">Donate</a></li>
+        </ul>
+    </footer>
+    </div>
+    <!--cierre div final-->
+    <script src="tp.js"></script>
+  </body>
 </html>
