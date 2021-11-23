@@ -4,30 +4,25 @@
 
 html,
 body {
- overflow-x: hidden;
+  overflow-x: hidden;
   width: 100%;
   margin: 0;
-  
-
 }
 
 .nav-container {
-    background-color: #fb5f5f;
-    width: 100%;
-    position:fixed;
-    top:-1px;
-    
-    
+  background-color: #fb5f5f;
+  width: 100%;
+  position: fixed;
+  top: -1px;
 }
 .nav-bar {
-    text-align: center;
-    display: flex;
-    width: 80%;
-    flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 0;
-    
+  text-align: center;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
 }
 .nav-button {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -64,7 +59,7 @@ body {
   justify-content: space-around;
   padding-top: 4vw;
   padding-bottom: 4vw;
-  margin-top: 65px;
+  margin-top: 60px;
 }
 .grid-cell {
   background-image: url("/images/ico.jpg");
@@ -80,14 +75,15 @@ body {
 a {
   text-decoration: none;
 }
-a
-{text-decoration:none;
+a {
+  text-decoration: none;
 }
-.index-footer a,a[href^="mailto"]{color: white;}
-a[href^="mailto"]:hover:after{
-    content:">"attr(tittle);
-    
-    
+.index-footer a,
+a[href^="mailto"] {
+  color: white;
+}
+a[href^="mailto"]:hover:after {
+  content: ">" attr(tittle);
 }
 
 .flex-container {
@@ -105,11 +101,10 @@ a[href^="mailto"]:hover:after{
   margin-right: 10vw;
 }
 iframe {
-    
-    width: 560px;
-    height: 315px;
-    max-width:35vw ;
-    max-height: 20vw;
+  width: 560px;
+  height: 315px;
+  max-width: 35vw;
+  max-height: 20vw;
   margin-bottom: 10px;
 }
 .oculto {
@@ -134,20 +129,18 @@ iframe {
   background-color: rgb(25, 204, 150);
   margin-bottom: 0px;
   margin-top: 0px;
-  
 }
 .index-footer > ul {
   margin: 0;
   text-decoration: none;
   list-style: none;
- 
 }
-.index-footer li>a{
-    display:block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 5px;
+.index-footer li > a {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 5px;
 }
 .preview {
   width: 80%;
@@ -167,7 +160,7 @@ iframe {
 
 @media screen and (max-width: 600px) {
   .grid-container {
-    height: 60vh;
+    height: 40vh;
   }
   .flex-container {
     flex-direction: column;
@@ -177,7 +170,7 @@ iframe {
   }
   iframe {
     max-width: 80%;
-    height: 35vh;
+    max-height: 20vh;
   }
   .flex-content iframe:last-child {
     display: none;
@@ -186,6 +179,6 @@ iframe {
     margin: 0;
   }
   .preview {
-    height: 60vh;
+    height: 40vh;
   }
 }
