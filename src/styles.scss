@@ -1,40 +1,19 @@
 * {
   box-sizing: border-box;
 }
+:root{
+  font-size: 16px;
 
+}
 html,
 body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
   margin: 0;
+  min-height:100%;
 }
 a {
   color: inherit;
 }
 
-h2 {
-  margin: 0;
-}
-.preview {
-  height: 40vh;
-}
-
-@media screen and (max-width: 600px) {
-  .grid {
-    height: 40vh;
-  }
-  .flex {
-    flex-direction: column;
-    &-video {
-      display: inline-flex;
-      &_ifr {
-        max-width: 80%;
-        max-height: 20vh;
-        &:last-child {
-          display: none;
-        }
-      }
-    }
-  }
-}

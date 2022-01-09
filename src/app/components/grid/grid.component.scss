@@ -1,27 +1,17 @@
 .grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    height: 40vw;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: hsla(139, 95%, 64%, 0.534);
-    justify-content: space-around;
-    padding-top: 4vw;
-    padding-bottom: 4vw;
-    
-    &-cell {
-       // background-image: url("images/ico.jpg");
-       background-color: white;
-        border-radius: 15px;
-        background-size: cover;
-        background-position: center;
-        &.center {
-            grid-row: 2 span;
-            grid-column: 2/3;
-            //background-image: url("images/ico.jpg");
-            background-color: white;
-        }
-        }
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(8rem, 1fr));
+  grid-auto-flow: dense;
+  grid-gap: 2rem 1rem;
+  padding: 4rem 2rem;
+  background-color: hsla(139, 95%, 64%, 0.534);
+  min-height: 25rem;
+  &-cell {
+    background-color: white;
+    border-radius: 1rem;
+    object-fit: cover;
+  
+  }
 }
