@@ -1,0 +1,24 @@
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #a0e7e5;
+    padding-top: 2vw;
+    &-video {
+        margin-left: 10vw;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 10vw;
+        &_ifr {
+            border:solid white 1px;
+            border-radius: 15px;
+            width: 560px;
+            height: 315px;
+            max-width: 35vw;
+            max-height: 20vw;
+            margin-bottom: 10px;
+            padding-bottom: 2vw;
+        }
+    }
+}
