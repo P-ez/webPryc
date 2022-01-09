@@ -5,15 +5,13 @@
   &-bar {
     text-align: center;
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
 
     &_link {
       text-decoration: none;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 20px;
+      font-size: 2rem;
       font-weight: bold;
       background-color: #b4f8c8;
       display: flex;
@@ -23,18 +21,12 @@
       border-radius: 5px;
       margin: 2vw;
       color: black;
-      width: 25vw;
-      min-height: 35px;
-      
+      width: 5rem;
+      height: minmax(2rem);
       &:hover {
         opacity: 0.7;
         color: black;
+      }
     }
   }
-}
-}
-
-.logo {
-  max-width: 100px;
-  max-height: 50px;
 }
