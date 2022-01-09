@@ -1,13 +1,13 @@
 .nav {
   background-color: #fb5f5f;
   width: 100%;
-
+  
   &-bar {
     text-align: center;
     display: flex;
     width: 100%;
     flex-direction: row;
-
+    
     &_link {
       text-decoration: none;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -23,9 +23,16 @@
       color: black;
       width: 5rem;
       height: minmax(2rem);
+      box-shadow: -0.3rem 0.3rem 0.2rem #86c398 ;
       &:hover {
         opacity: 0.7;
         color: black;
+      }
+      &:active{
+        box-shadow: 0 0;
+        transform: translate(-0.3rem, 0.3rem);
+        
+        
       }
     }
   }
