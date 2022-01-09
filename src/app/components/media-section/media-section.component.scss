@@ -10,15 +10,16 @@
         flex-direction: column;
         width: 100%;
         margin-right: 10vw;
+        object-fit: cover;
+        
         &_ifr {
-            border:solid white 1px;
             border-radius: 15px;
             width: 560px;
             height: 315px;
             max-width: 35vw;
             max-height: 20vw;
-            margin-bottom: 10px;
-            padding-bottom: 2vw;
+            
+            
         }
     }
 }
