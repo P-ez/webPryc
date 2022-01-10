@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parents.component.scss']
 })
 export class ParentsComponent implements OnInit {
-  display=true
+  display=false
   toggle(){
     this.display=!this.display;
   }
