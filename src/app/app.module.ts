@@ -11,6 +11,8 @@ import { GamesComponent } from './pages/games/games.component';
 import { ParentsComponent } from './pages/parents/parents.component';
 import { GameSwiperComponent } from './components/game-swiper/game-swiper.component';
 import { SwiperModule } from 'swiper/angular';
+import { ModalComponent } from './components/modal/modal.component';
+import { PrintfunComponent } from './pages/printfun/printfun.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { SwiperModule } from 'swiper/angular';
     MediaSectionComponent,
     GamesComponent,
     ParentsComponent,
-    GameSwiperComponent
+    GameSwiperComponent,
+    ModalComponent,
+    PrintfunComponent
   ],
   imports: [
     BrowserModule,
