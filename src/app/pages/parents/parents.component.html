@@ -1,43 +1,45 @@
 <h1>Seccion para Padres</h1>
+<main class="container">
 <ul class="info">
     <li class="info-item">
-        <button class="info-item_btn">
+        <button (click)="toggle()" class="info-item_btn">
             <h2>Acerca del sitio</h2>
         </button>
-    </li>
-    <p class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
-        dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
-        sit aspernatur velit itaque!</p>
+        <p *ngIf="display" class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
+            dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
+            sit aspernatur velit itaque!</p>
+        </li>
 
-    <li class="info-item"><button class="info-item_btn">
+    <li class="info-item"><button (click)="toggle1()" class="info-item_btn">
             <h2>Tiempo de juego</h2>
         </button>
-    </li>
-    <p class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
-        dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
-        sit aspernatur velit itaque!</p>
+        <p *ngIf="display1" class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
+            dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
+            sit aspernatur velit itaque!</p>
+        </li>
 
-    <li class="info-item"><button class="info-item_btn">
+    <li class="info-item"><button (click)="toggle2()" class="info-item_btn">
             <h2>Supervision conjunta</h2>
         </button>
-    </li>
-    <p class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
-        dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
-        sit aspernatur velit itaque!</p>
+        <p *ngIf="display2" class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
+            dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
+            sit aspernatur velit itaque!</p>
+        </li>
 
-    <li class="info-item"><button class="info-item_btn">
-            <h2>Desarrollo y diversion!</h2>
+    <li class="info-item"><button (click)="toggle3()" class="info-item_btn">
+            <h2>Desarrollo y mainersion!</h2>
         </button>
-    </li>
-    <p class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
-        dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
-        sit aspernatur velit itaque!</p>
+        <p *ngIf="display3" class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
+            dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
+            sit aspernatur velit itaque!</p>
+        </li>
 
-    <li class="info-item"><button class="info-item_btn">
+    <li class="info-item"><button (click)="toggle4()"  class="info-item_btn">
             <h2>Sugerencias</h2>
         </button>
-    </li>
-    <p class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
-        dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
-        sit aspernatur velit itaque!</p>
+        <p *ngIf="display4" class="info-item_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem ipsum ab, optio,
+            dolore suscipit reiciendis, facere praesentium nihil dolorem inventore sapiente? Ex adipisci, necessitatibus non
+            sit aspernatur velit itaque!</p>
+        </li>
 </ul>
+</main>

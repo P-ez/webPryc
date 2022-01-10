@@ -15,6 +15,7 @@ import { ModalComponent } from './components/modal/modal.component';
 import { PrintfunComponent } from './pages/printfun/printfun.component';
 import { HomeComponent } from './pages/home/home.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { HomeComponent } from './pages/home/home.component';
     ModalComponent,
     PrintfunComponent,
     HomeComponent
+   
   ],
   imports: [
     BrowserModule,
