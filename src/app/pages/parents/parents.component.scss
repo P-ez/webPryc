@@ -1,0 +1,21 @@
+h1{  margin:0}
+
+
+.info{
+    text-decoration: uppercase;
+    padding:2rem;
+    margin-bottom: 5.2rem;
+    list-style-type:none;
+    &-item{
+        border-radius:1rem;
+        
+        &_btn{
+            background-color: primary;
+            width: 100%;
+            width:minmax(10rem);
+        }
+        &_content{
+            display:none;
+        }    
+}
+}
