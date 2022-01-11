@@ -14,6 +14,7 @@ import { SwiperModule } from 'swiper/angular';
 
 import { PrintfunComponent } from './pages/printfun/printfun.component';
 import { HomeComponent } from './pages/home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -26,7 +27,6 @@ import { HomeComponent } from './pages/home/home.component';
     GamesComponent,
     ParentsComponent,
     GameSwiperComponent,
-
     PrintfunComponent,
     HomeComponent
    
@@ -35,7 +35,8 @@ import { HomeComponent } from './pages/home/home.component';
     BrowserModule,
     AppRoutingModule,
     LayoutModule,
-    SwiperModule
+    SwiperModule,
+    NgbModule
     
   ],
   providers: [],
