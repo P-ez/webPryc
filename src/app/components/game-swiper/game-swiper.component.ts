@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 
 @Component({
   selector: 'app-game-swiper',
@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./game-swiper.component.scss']
 })
 export class GameSwiperComponent implements OnInit {
-
+  imagen2 = "assets/images/game.svg";
+  imagen = "assets/images/bckg_parn.jpg";
   constructor() { }
-
+  
   ngOnInit(): void {
   }
-
 }
