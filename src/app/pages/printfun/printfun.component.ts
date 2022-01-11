@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import Swiper, { Navigation, Pagination } from 'swiper';
+import 'swiper/scss';
+import 'swiper/scss/navigation';
+import 'swiper/scss/pagination';
 
 @Component({
   selector: 'app-printfun',
@@ -6,9 +10,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./printfun.component.scss']
 })
 export class PrintfunComponent implements OnInit {
-
-  constructor() { }
-
+  
+  constructor() { 
+  Swiper.use([Navigation,Pagination])
+  }
   ngOnInit(): void {
   }
 
