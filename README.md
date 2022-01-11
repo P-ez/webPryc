@@ -1,27 +1,14 @@
 # WebPryc
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Lo que use fue:
+-npm
+-angular
+-eslint
+-use articulos semanticos, en lo posible
+-lo considero muy responsive, mas alla de min 710 al 910 width que se rompe.
+respecto a acces, al axe tool alerto mucho al respecto del uso de ARIA, asi que este item no puedo tomarlo como hecho.
+-scss
+-subido a netlify ya que no use express, no vi necesario el heroku.
+-la unica animacion es del slider pere este es de "SwiperJs"
+-La rama definitiva quedo en ang2, no estuve seguro del merge
+- el link del deploy es= https://adoring-curran-3247aa.netlify.app/
